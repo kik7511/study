@@ -9,21 +9,19 @@ public class PromotionExample {
 		//byte < short < int< long < float < double
 		
 		byte byteValue = 10;
-		System.out.println("byteValue: "+ byteValue);
+		System.out.println("byteValue: "+ byteValue + "입니다.");
 		
-		/*
-		int intValue = byteValue;
-		System.out.println("intValue: "  + intValue);
+		short shortValue = byteValue; //10
+		System.out.println("shortValue: "+ shortValue + "입니다.");
 		
-		int inValue2 = 1234567890;
-		System.out.println("intValue: "  + intValue);
-		*/
+		int intValue = shortValue;
+		System.out.println("intValue: "+ intValue + "입니다.");
 		
-		int intValue3 = 200;
-		System.out.println("intValue3: " + intValue3 + "입니다.!!!");
+		float floatValue = intValue;
+		System.out.println("floatValue: "+ floatValue + "입니다.");
 		
-		double intValue = intValue3;
-		System.out.println("intValue: " + intValue + "입니다.!!!");
+		double doubleValue = floatValue;
+		System.out.println("doubleValue: "+ doubleValue + "입니다.");
 	}
 
 	
