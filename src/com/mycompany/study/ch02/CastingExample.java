@@ -25,7 +25,7 @@ public class CastingExample {
 		System.out.println("shortValue: " + shortValue);
 		System.out.println("byteValue: " + byteValue);
 		
-		// string을 int로 변환
+		//	int를 string로 변환
 		int i =1;
 		String s = String.valueOf(i);
 		System.out.println(s);
@@ -33,8 +33,8 @@ public class CastingExample {
 		int o=2;
 		String a = Integer.toString(o);
 		System.out.println(a);
-		
-		//	int를 string로 변환
+
+		// string을 int로 변환
 		String b = "123";
 		//int c=Integer.parseInt(b);
 		int c = Integer.valueOf(b);
