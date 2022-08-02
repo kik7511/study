@@ -40,6 +40,7 @@ public class CastingExample {
 		int c = Integer.valueOf(b);
 		System.out.println(c);
 	
+
 		
 	}
 
