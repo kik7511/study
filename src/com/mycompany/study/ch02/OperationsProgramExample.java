@@ -33,6 +33,8 @@ public class OperationsProgramExample {
 		double doubleValue2=12;
 		double doubleValue3=doubleValue+doubleValue2;
 		System.out.println(doubleValue3);
+		
+		
 	}
 
 }
