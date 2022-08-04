@@ -19,6 +19,11 @@ public class CompareOperatorExample {
 		System.out.println(result4);
 		System.out.println(result5);
 		System.out.println(result6);
+		
+		String str1="김대겸";
+		String str2=new String("김대겸");
+		System.out.println(str1==str2);
+		
 	}
 
 }
