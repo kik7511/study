@@ -9,21 +9,22 @@ public class IfExample2 {
 		
 		switch(a) {
 			case "일반" : 
-				System.out.println((double)result-(result*0.05));
+				System.out.println(result-(int)(result*0.05));
 				break;
 			case "브론즈" : 
-				System.out.println((double)result-(result*0.1));
+				System.out.println(result-(int)(result*0.1));
 				break;
 			case "실버" : 
-				System.out.println((double)result-(result*0.15));
+				System.out.println(result-(int)(result*0.15));
 				break;
 			case "골드" : 
-				System.out.println((double)result-(result*0.20));
+				System.out.println(result-(int)(result*0.20));
 				break;
 			case "플래티넘" : 
-				System.out.println((double)result-(result*0.27));				
+				System.out.println(result-(int)(result*0.27));				
 				break;
-		
+			default :
+				System.out.println("죄송하지만 정가로 받아야 합니다");
 		}
 		
  
