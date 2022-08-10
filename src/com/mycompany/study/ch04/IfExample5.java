@@ -9,7 +9,7 @@ public class IfExample5 {
         System.out.println("2사분면입니다");
     }else if(x<0 && y<0){
         System.out.println("3사분면입니다");
-    }else if(x<0 && y>0){
+    }else if(x<0 && y>0){   
         System.out.println("4사분면입니다");
     }else if(x==0 && y!=0){
         System.out.println("x축 위에 있습니다");
