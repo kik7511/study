@@ -1,3 +1,5 @@
+package com.mycompany.study.ch04;
+
 public class ForPrintFrom1To10Example {
     public static void main(String[] args) {
         //1부터 10까지 더하는 프로그램 작성
@@ -12,7 +14,7 @@ public class ForPrintFrom1To10Example {
 
         double min=1;
         double max=45;
-        int random = (int)((Math.random()*(max-min)+min);
+        int random = (int)((Math.random()*(max-min)+min));
         System.out.println(random);
     }
 

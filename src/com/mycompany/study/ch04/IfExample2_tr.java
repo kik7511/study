@@ -1,6 +1,6 @@
 package com.mycompany.study.ch04;
 
-public class IfExample2 {
+public class IfExample2_tr {
 
 	public static void main(String[] args) {
 

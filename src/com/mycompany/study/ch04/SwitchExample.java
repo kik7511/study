@@ -3,7 +3,7 @@ package com.mycompany.study.ch04;
 import javax.swing.plaf.synth.SynthColorChooserUI;
 
 public class SwitchExample {
-    int num=3;
+    int num=2;
 
     switch(num){
         case 1:
