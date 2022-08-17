@@ -1,16 +1,14 @@
 package com.mycompany.study.ch04;
 
-import javax.swing.plaf.synth.SynthColorChooserUI;
-
 public class SwitchExample {
-    int num=2;
+    /*int num=2;
 
     switch(num){
-        case 1:
+        case1:
             System.out.println("1번이 나왔습니다");
             break;
-        case 2:
-            System.out.println("2번이 나왔습니다");
+        case2:
+        	System.out.println("2번이 나왔습니다");
             break;
         defult:
             System.out.println("1도2도 아닌 정수입니다.");
@@ -35,7 +33,7 @@ public class SwitchExample {
             break;
         defult:
             System.out.println("사원이 아닙니다");
-            break
-    }
+            break;
+    }*/
 
 }

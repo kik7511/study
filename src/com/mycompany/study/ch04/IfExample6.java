@@ -1,7 +1,7 @@
 package com.mycompany.study.ch04;
 
 public class IfExample6 {
-    int a=1;
+    /*int a=1;
     int b=2;
     int c=3;
     
@@ -23,7 +23,7 @@ public class IfExample6 {
     }else{
         System.out.println("적어도 2개의 동일한 정수가 존재합니다. 수정해 주세요.");
     }
-}
+}*/
 }
 
 

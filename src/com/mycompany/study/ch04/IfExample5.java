@@ -1,7 +1,7 @@
 package com.mycompany.study.ch04;
 
 public class IfExample5 {
-    int x=2;
+    /*int x=2;
     int y=3;
     
     if(a>x && y>0){
@@ -20,6 +20,6 @@ public class IfExample5 {
         System.out.println("원점에 있습니다");
     }
 }
-    
+    */
 
 }
