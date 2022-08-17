@@ -12,13 +12,14 @@ public class ArrayCreateByValueListExample1 {
 		
 		//scoreChemistry 의 평균을 구해서 출력 하시오
 		int sum=0;
-		for(int i=0; i<=scoreChemistry.length-1; i++) {
-			
+		for(int i=0; i<scoreChemistry.length; i++) {
 			sum=sum+scoreChemistry[i];
-			
 		}
 		double average = (double)sum/(scoreChemistry.length);
+		
 		System.out.println("화학점수의 평균 점수는 "+ average + "점 입니다.");
+		
+		System.out.println("--------------------------------------");
 		
 		System.out.println("명지님 화학성적 : " + scoreChemistry[0]);
 		
