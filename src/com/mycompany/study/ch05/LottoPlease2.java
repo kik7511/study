@@ -1,5 +1,6 @@
 package com.mycompany.study.ch05;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class LottoPlease2 {
@@ -1056,7 +1057,7 @@ public class LottoPlease2 {
 				random = (int) ((Math.random() * (max - min)) + min);
 				randomArray[i] = random;
 			}
-			
+			System.out.println(Arrays.toString(randomArray));
 	//		System.out.println(randomString);
 	//		System.out.println("---------");
 			
