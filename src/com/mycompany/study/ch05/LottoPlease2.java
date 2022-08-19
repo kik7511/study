@@ -1057,7 +1057,7 @@ public class LottoPlease2 {
 				random = (int) ((Math.random() * (max - min)) + min);
 				randomArray[i] = random;
 			}
-			System.out.println(Arrays.toString(randomArray));
+	//		System.out.println(Arrays.toString(randomArray));
 	//		System.out.println(randomString);
 	//		System.out.println("---------");
 			
@@ -1119,6 +1119,8 @@ public class LottoPlease2 {
 				randomString += randomArray[i] + "/";
 			}
 			randomString = randomString.substring(0, randomString.length()-1);
+			// System.out.println(randomString);
+			
 			
 			
 			// 기존 번호와 비교
