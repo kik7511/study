@@ -11,16 +11,7 @@ public class ArrayInArrayExample {
 		System.out.println("scroes[1][2]: "+scores[1][2]);
 		System.out.println("scroes[0][1]: "+scores[0][1]);
 		System.out.println(scores[0].length);
-		/*
-		장원영 국 영 수
-		장동건
-		고소영
-		김대겸
-		김윤지
-		
-		1.개인의 평균
-		2.과목별 평균
-		*/
+	
 		
 		//1,2
 		//내 정담
