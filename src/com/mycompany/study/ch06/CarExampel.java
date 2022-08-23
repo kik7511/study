@@ -11,6 +11,9 @@ public class CarExampel {
 
         System.out.println("Car.name: "+abx.name);
         System.out.println("Car.name2[1]: "+abx.name2[1]);
+
+       
+
     }
 }
 
