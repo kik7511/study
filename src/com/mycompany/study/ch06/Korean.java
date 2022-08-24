@@ -17,4 +17,21 @@ public class Korean{
         this.name=name;
         this.ssn=ssn;
     }
+
+    static String nationality = "대한민국";
+
+    static int staticTest(int a){
+        return a + 10;
+    }
+
+    int test1(){
+        ArithmeticOperation arithmeticOperation = new ArithmeticOperation();
+        
+        arithmeticOperation.multiply(2, 3);
+    }
+
+
+    public void test2(){
+        ArithmeticOperation.staticTest();
+    }
 }

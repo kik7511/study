@@ -28,4 +28,8 @@ public class ArithmeticOperation {
     public void result(int number){
         System.out.println("답은 " + number  + "입니다.");
     }
+
+    static void staticTest(){
+        System.out.println("나는 놀고 싶다");
+    }
 }

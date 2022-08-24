@@ -1,26 +1,40 @@
 package com.mycompany.study.ch06;
 
-import java.util.Date;
-
-public class Board {
-    
-    //제목
-    //작성자
-    //작성일
-    //조회
+public class Board {    
 
     //field
-    String title;
-    String writter;
-    Date writeDate;
-    int view;
+    String name="김대겸";   
+    int view=10;
+    boolean useYN=true;
 
     //method
 
-    //글쓰기
-    //글수정하기
-    //글삭제하기
-    //댓글달기
-    //글상세내용보기
+    Board(){
 
+    }    
+
+    Board(String name){
+        this.name = name;
+    } 
+
+    Board(String name, int view){
+        this.name = name;
+        this.view = view;
+    }
+
+    Board(String name, boolean useYN){
+        this.name = name;
+        this.useYN = useYN;
+    }
+
+    Board(String name, int view, boolean useYN){
+        this.name = name;
+        this.view = view;
+        this.useYN = useYN;        
+    }   
+
+    public void say(){
+        
+        System.out.println(name + "님이 " + view + "번 조회하셨습니다." + "사용여부는 "  +useYN + "입니다.");
+    }
 }
