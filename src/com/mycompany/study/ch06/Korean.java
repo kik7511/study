@@ -27,7 +27,7 @@ public class Korean{
     int test1(){
         ArithmeticOperation arithmeticOperation = new ArithmeticOperation();
         
-        arithmeticOperation.multiply(2, 3);
+        return arithmeticOperation.multiply(2, 3);
     }
 
 

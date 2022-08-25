@@ -19,6 +19,9 @@ public class CarSecond {
             cc = num;
         }
         */     
+        CarSecond() {
+
+		}
         
         CarSecond(String name){
             this.name=name;
@@ -29,7 +32,7 @@ public class CarSecond {
             this.cc=cc;
         }
 
-        CarScond(String name, String color, int cc){
+        CarSecond(String name, String color, int cc){
             this.name = name;
             this.color = color;
             this.cc = cc;

@@ -8,7 +8,7 @@ public class KoreanTr {
 
     }
 
-    KoreanTr(Strint name, String ssn){
+    KoreanTr(String name, String ssn){
         this.name = name;
         this.ssn = ssn;
     }
