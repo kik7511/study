@@ -3,7 +3,8 @@ package com.mycompany.study.ch07.first;
 public class DmbCellPhoneExample {
 
 	public static void main(String[] args) {
-		
+	
+	
 	//부모 객체를 생성하고 powerOn 메소드 실행
 		
 		CellPhone cellPhone = new CellPhone();
@@ -25,7 +26,18 @@ public class DmbCellPhoneExample {
 		
 		dmbCellPhone2.turnOnDmb();
 		dmbCellPhone2.changeChannelDmb(5);
-		dmbCellPhone2.turnOffDmb();	
+		dmbCellPhone2.turnOffDmb();
+		
+	//dmbCellPhone2 객체를 사용하여 부모 클래스의 함수 전개 호출
+		dmbCellPhone2.powerOn();
+		dmbCellPhone2.powerOff();
+		dmbCellPhone2.bell();
+		dmbCellPhone2.sendVoice("알려드립니다.");
+		dmbCellPhone2.receiveVoice("그러시군요.");
+		dmbCellPhone2.hangup();
+		
+	
+	
 	
 
 	}
