@@ -3,6 +3,7 @@ package com.mycompany.study.ch07.forth;
 import java.util.Arrays;
 
 public class Sumparent {
+	
 	public int sum;	
 	
 	public void up(int a, int b, int c) {
@@ -16,4 +17,7 @@ public class Sumparent {
 		sum = (num[0]*num[1])+num[2];
 		return sum;
 	}
+	
+	
+	
 }
